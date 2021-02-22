@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap");
+
+html {
+  font-size: 16px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.post-wrapper {
+  max-width: 60rem;
+  display: block;
+  margin-bottom: 4rem;
+}
+
+.title-wrapper {
+  width: auto;
+  text-align: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.title-wrapper,
+h1 {
+  font-size: 3rem;
+  text-shadow: 1px 1px 2px #080808;
+}
+
+.content-wrapper {
+  color: #080808;
+  line-height: 3rem;
+}
+
+.content-wrapper,
+p {
+  font-size: 1.4rem;
+}
+
+.home-btn {
+  display: block;
+  width: 15rem;
+  text-align: center;
+  padding: 1em;
+  background: #000000;
+  margin: 2.5rem auto 0 auto;
+  transition: 0.2s;
+}
+
+.home-btn:hover {
+  transform: scale(1.2);
+}
+
+.home-btn,
+a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1098px) {
+  .post-wrapper {
+    padding: 0 7vw;
+  }
+}
